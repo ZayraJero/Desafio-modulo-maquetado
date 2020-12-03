@@ -2,16 +2,13 @@
     display: flex;
    flex-direction: row;
    justify-content: space-between;
-   align-content: flex-end;
-    
-
-   
 }
 
 // .post-head ul, li{
 //     flex-direction: row;
 //     font-size: 12px;
 // }
+
 .post-title{
     display: flex;
     align-items: baseline;
@@ -26,8 +23,8 @@
 .btn-secondary, .dropdown-menu{
     font-size: 14px;
 }
+
 .btn-secondary{
     border-color: $text-comment;
-
 }
 

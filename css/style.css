@@ -23,8 +23,6 @@ ul, li {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
 }
 
 .post-title {
