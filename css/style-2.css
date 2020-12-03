@@ -3,4 +3,12 @@ body {
   color: #08090a;
   cursor: pointer;
 }
+
+ul, li {
+  list-style: none;
+}
+
+.bg {
+  background: #eef0f1;
+}
 /*# sourceMappingURL=style-2.css.map */
