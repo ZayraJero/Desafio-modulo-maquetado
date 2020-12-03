@@ -1,0 +1,33 @@
+.post-head{
+    display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-content: flex-end;
+    
+
+   
+}
+
+// .post-head ul, li{
+//     flex-direction: row;
+//     font-size: 12px;
+// }
+.post-title{
+    display: flex;
+    align-items: baseline;
+}
+
+.post-title h3{
+    font-size: 18px;
+    margin-left: 10px;
+    color: $color-text-post;
+}
+
+.btn-secondary, .dropdown-menu{
+    font-size: 14px;
+}
+.btn-secondary{
+    border-color: $text-comment;
+
+}
+
