@@ -3,3 +3,11 @@ body {
     color: $color-text;
     cursor: pointer;
 }
+
+ul, li{
+    list-style: none;
+}
+
+.bg{
+    background: $body-bg;
+}
