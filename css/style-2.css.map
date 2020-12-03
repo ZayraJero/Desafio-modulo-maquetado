@@ -2,11 +2,11 @@
     "version": 3,
     "mappings": "AEAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;EACjC,KAAK,EDDI,OAAO;ECEhB,MAAM,EAAE,OAAO;CAClB",
     "sources": [
-        "style.scss",
+        "style-2.scss",
         "_variables.scss",
         "_base.scss",
         "_mixins.scss"
     ],
     "names": [],
-    "file": "style.css"
+    "file": "style-2.css"
 }
