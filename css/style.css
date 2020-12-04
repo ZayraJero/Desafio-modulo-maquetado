@@ -94,6 +94,7 @@ ul, li {
   border-color: #808080;
 }
 
+<<<<<<< HEAD
 .aside2 {
   border: 5px solid gray;
   display: -webkit-box;
@@ -103,5 +104,118 @@ ul, li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+=======
+.ph-post {
+  max-width: 100%;
+  margin: 2% 0 0 0;
+}
+
+.post-section {
+  background: white;
+  border: 1px solid #eef0f1;
+}
+
+.post-section .post-name-user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px;
+}
+
+.post-section .user-icon {
+  margin-right: 10px;
+}
+
+.post-section .user-name {
+  color: #363d44;
+  font-size: 15px;
+  padding: 0;
+}
+
+.post-section .user-name .text-gray {
+  color: #808080;
+  font-size: 13px;
+}
+
+.title-article {
+  margin-left: 5%;
+}
+
+.title-article h1 {
+  font-size: 20px;
+}
+
+.title-article ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 0;
+  color: #808080;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  font-size: 12px;
+}
+
+.section-comment {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-bottom: 10px;
+}
+
+.reaction-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+.comment-post {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  font-size: 13px;
+}
+
+.text-read {
+  color: #808080;
+  font-size: 11px;
+  margin-right: 10px;
+}
+
+.wrapper-icon {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.wrapper {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.btn-post {
+  border: none;
+  color: #363d44;
+  background-color: #d2d6db;
+  font-size: 15px;
+  padding: 5px 12px;
+}
+
+.btn-post:hover {
+  background: #b5bdc4;
+>>>>>>> develop
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,12 +1,14 @@
+//POST HEAD
 .post-head{
     display: flex;
    flex-direction: row;
    justify-content: space-between;
 }
 
-// .post-head ul, li{
+// .post-head ul{
 //     flex-direction: row;
 //     font-size: 12px;
+//     padding-left: 0;
 // }
 
 .post-title{
@@ -26,5 +28,98 @@
 
 .btn-secondary{
     border-color: $text-comment;
+}
+
+//USER NAME SECTION
+.ph-post{
+    max-width: 100%;
+    margin: 2% 0 0 0;
+}
+
+.post-section{
+    background: white;
+    border: 1px solid $color-post-border;
+
+  .post-name-user{
+    display: flex;
+    margin:10px;
+   }
+
+    .user-icon{
+        margin-right: 10px;
+    } 
+
+    .user-name{
+        color: $color-btn;
+        font-size: 15px;
+        padding: 0;
+     
+        .text-gray{
+            color: $text-comment;
+            font-size: 13px;
+        }
+    }
+}
+//ARTICLE SECTION
+.title-article{
+    margin-left: 5%;
+}
+.title-article h1{
+    font-size: 20px;
+
+}
+
+.title-article ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    color: $text-comment;
+   justify-content: space-around;
+    font-size: 12px;
+    
+}
+.section-comment{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    
+    
+}
+.reaction-post{
+    display: flex;
+    align-items: flex-start;
+    font-size: 13px;
+    margin-right: 20px;
+    
+}
+
+.comment-post{
+    display: flex;
+    align-items: flex-start;
+    font-size: 13px;
+}
+
+.text-read{
+    color: $text-comment;
+    font-size: 11px;
+    margin-right: 10px;
+}
+.wrapper-icon{
+    align-items: flex-end;
+}
+.wrapper{
+    align-items: baseline;
+}
+//BTN SECTION
+
+.btn-post{
+    border: none;
+    color: $color-btn;
+    background-color: $bg-btn;
+    font-size: 15px;
+    padding: 5px 12px;
+    &:hover{
+        background: $btn-hover;
+    }
 }
 
