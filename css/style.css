@@ -11,4 +11,40 @@ ul, li {
 .bg {
   background: #eef0f1;
 }
+
+.post-head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.post-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.post-title h3 {
+  font-size: 18px;
+  margin-left: 10px;
+  color: #202428;
+}
+
+.btn-secondary, .dropdown-menu {
+  font-size: 14px;
+}
+
+.btn-secondary {
+  border-color: #808080;
+}
 /*# sourceMappingURL=style.css.map */

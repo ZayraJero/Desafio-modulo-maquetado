@@ -1,11 +1,19 @@
 {
     "version": 3,
+<<<<<<< HEAD
     "mappings": "AEAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;EACjC,KAAK,EDDI,OAAO;ECEhB,MAAM,EAAE,OAAO;CAClB;;AAED,AAAA,EAAE,EAAE,EAAE,CAAA;EACF,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,GAAG,CAAA;EACC,UAAU,EDXJ,OAAO;CCYhB",
+=======
+    "mappings": "AEAA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,oBAAoB;EACjC,KAAK,EDDI,OAAO;ECEhB,MAAM,EAAE,OAAO;CAClB;;AAED,AAAA,EAAE,EAAE,EAAE,CAAA;EACF,UAAU,EAAE,IAAI;CACnB;;AAED,AAAA,GAAG,CAAA;EACC,UAAU,EDXJ,OAAO;CCYhB;;AIZD,AAAA,UAAU,CAAA;EACN,OAAO,EAAE,IAAI;EACd,cAAc,EAAE,GAAG;EACnB,eAAe,EAAE,aAAa;CAChC;;AAOD,AAAA,WAAW,CAAA;EACP,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,QAAQ;CACxB;;AAED,AAAA,WAAW,CAAC,EAAE,CAAA;EACV,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,IAAI;EACjB,KAAK,ELJS,OAAO;CKKxB;;AAED,AAAA,cAAc,EAAE,cAAc,CAAA;EAC1B,SAAS,EAAE,IAAI;CAClB;;AAED,AAAA,cAAc,CAAA;EACV,YAAY,ELzBD,OAAO;CK0BrB",
+>>>>>>> dc5a28f3ada9ac5ce7e858a0a1a421615ba1926e
     "sources": [
         "style.scss",
         "_variables.scss",
         "_base.scss",
-        "_mixins.scss"
+        "_mixins.scss",
+        "_navbar.scss",
+        "_aside1.scss",
+        "_main.scss",
+        "_aside2.scss"
     ],
     "names": [],
     "file": "style.css"
