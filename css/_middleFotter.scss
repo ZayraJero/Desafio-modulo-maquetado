@@ -29,6 +29,16 @@ input {
     text-align: left;
 }
 
+<<<<<<< HEAD
 .footer-design{
     background-color: rgb(210, 214, 219,);
 }
+=======
+.div.etiquetas ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    color: $text-comment;
+    justify-content: flex-start;
+  }
+>>>>>>> 14480ca04d8d3400d2960b8377a9dac2d900bae2
