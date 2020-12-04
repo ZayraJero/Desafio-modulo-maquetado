@@ -14,6 +14,27 @@
 </head>
 
 <body>
+    <header class="container-navbar">
+        <nav class="navbar navbar-expand-lg fixed-top py-0">
+            <div class="container bg-white">
+                <div class="nav-left d-flex align-items-center">
+                    <img src="/assets/icon-logo.svg" alt="logo">
+                    <form class="form-inline my-1">
+                        <input class="form-control my-0 mr-sm-2 nav-search" type="search" placeholder="Search..."
+                            aria-label="Search">
+                    </form>
+                </div>
+                <div class="nav-right d-flex align-items-center">
+                    <button type="button" class="d-none d-md-flex btn btn-primary btn-lg btn-nav">Write a post</button>
+                    <img src="/assets/icon-chat.svg" alt="icon">
+                    <img src="/assets/icon-notification.svg" alt="icon">
+
+                    <img src="/assets/images/foto-zay.jpeg" width="30" alt="user-ph"
+                        class="rounded-circle border border-secondary">
+                </div>
+            </div>
+        </nav>
+    </header>
 
     <div class="container-fluid bg">
         <div class="row">
@@ -104,7 +125,9 @@
 
                         <div class="container-post">
                             <div>
-                                <img src="/assets/images/ph-article.jpg" class="ph-post img-fluid" alt="ph-post">
+                                <a href="main.html">
+                                    <img src="/assets/images/ph-article.jpg" class="ph-post img-fluid" alt="ph-post">
+                                </a>
                             </div>
 
                             <div class="post-section">
@@ -118,7 +141,9 @@
                                 </div>
 
                                 <div class="title-article">
-                                    <h1>10 famous Javascript libraries for Machine Learning</h1>
+                                    <a href="main.html" class="text-decoration-none text-body">
+                                        <h1>10 famous Javascript libraries for Machine Learning</h1>
+                                    </a>
                                     <ul>
                                         <li>#javascript</li>
                                         <li>#machinelearning</li>
