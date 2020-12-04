@@ -94,17 +94,6 @@ ul, li {
   border-color: #808080;
 }
 
-.aside2 {
-  border: 5px solid gray;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .ph-post {
   max-width: 100%;
   margin: 2% 0 0 0;
@@ -221,5 +210,16 @@ ul, li {
 
 .btn-post:hover {
   background: #b5bdc4;
+}
+
+.aside2 {
+  border: 5px solid gray;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 /*# sourceMappingURL=style.css.map */
