@@ -83,30 +83,66 @@
                             <div class="div">
                                 <ul class="d-flex flex-row justify-content-between align-items-center">
                                     <li><p><strong>Discussion</strong></p></li>
-                                    <li><button type="button" class="btn btn-primary">Primary</button></li>
+                                    <li><button type="button" class="btn button-white">Subscribe</button></li>
                                 </ul>
+                            <div class="d-flex flex-row align-items-start">
+                                <div><img src="assets/images/foto-zay.jpeg" width="50" class="h-100 rounded-circle"></div>
+                                <div class="ml-3 w-100"><input type="text" placeholder="Add to de Discussion" class="corner-square p-5 w-100"></input></div>
                             </div>
-                            <div class="d-flex flex-row align-items-center border border-primary">
-                                <div>carita</div>
-                                <div class="w-auto"><input class="w-auto p-5"></input></div>
-                            </div>
-                            <div class="div border border-secondary">                                
-                                <ul class="d-flex flex-row border border-danger">
-                                    <li>upload</li>
-                                    <li>templates</li>
+                            <div class="div w-100">                                
+                                <ul class="d-flex flex-row justify-content-start px-3">
+                                    <li class="ml-5"><img src="assets/upload-icon.svg"> Upload image </li>
+                                    <li class="ml-3"><img src="assets/crayons.svg"> Templates </li>
                                 </ul> 
                              </div>
                             <div>
-                               <div class="d-flex flex-row justify-content-start align-items-center">
-                                   <li><button type="button" class="btn btn-primary">Submit</button></li>
-                                   <li><button type="button" class="btn btn-primary">Preview</button></li>
+                               <div class="d-flex flex-row justify-content-start px-5 align-items-center">
+                                   <button type="button" class="btn button-blue ml-4">Submit</button></li>
+                                   <button type="button" class="btn button-gray ml-2">Preview</button></li>
                                </div> 
                             </div>
+                            </div>
+                            <div class="div d-flex flex-row py-2 mt-4">                               
+                                <div class="div d-flex flex-column mr-3"><img src="assets/images/user-2-7.jpeg" width="50" class="rounded-circle"></div>                                    
+                                <div class="corner-square w-100">
+                                    <ul class="d-flex flex-row justify-content-between w-100">
+                                        <li>Hemant Joshi * Dec 2</li>
+                                        <li>...</li>
+                                    </ul>
+                                    <div><p>Surely going to get my hands on ML with Js</p></div>
+                                </div>                                                               
+                            </div>
 
-                            <div class="div">comment 1</div>
-                            <div class="div">comment 2</div>
-                            <div class="div">comment 3</div>
-                            <div class="div">Code Conduct</div>
+                            <div class="div d-flex flex-row py-2">
+                                <div class="div d-flex flex-column mr-3"><img src="assets/images/user-2-3.jpeg" width="50" class="rounded-circle"></div>
+                                <div class="corner-square w-100">
+                                    <ul class="d-flex flex-row justify-content-between w-100">
+                                        <li>dc * Dec 1</li>
+                                        <li>...</li>                                        
+                                    </ul>
+                                    <div>it feels like JS is laggings python so far here. for example TFJS wrappers are still on TF1.0 where the TF2.0 was released over a year ago...</div>
+                                </div>                                
+                            </div>
+                            <div class="div d-flex flex-row py-2">
+                                <div class="div d-flex flex-column mr-3"><img src="assets/images/user-2-2.jpg" width="50" class="rounded-circle"></div>
+                                <div class="corner-square w-100">
+                                    <ul class="d-flex flex-row justify-content-between w-100">
+                                        <li>Tobias Nickel * Dec 2</li>
+                                        <li>...</li>                                        
+                                    </ul>
+                                    <div>thats is a decision made @ google,... the drive all the TF development right?
+                                        also Ithink in python, a dedicated TF process is used to interact with the tensor-processors on your GPU. the communication with python and that process I think was using gprc.
+                                        TF js run on gpu directly, but it can not use tensor cores.
+                                    </div>
+                                </div>                                
+                            </div>
+
+
+                          
+                            
+                            <div class="div d-flex justify-content-center py-3">
+                                <p>Code Conduct * Report abuse</p>
+                            </div>
                         </div>
                     </div>
 
@@ -162,14 +198,46 @@
 
     <!-- Manu -->
     <!-- Read Next -->
-    <div class="col-7">
+    <div class="col-7 border border-warning d-flex justify-content-center">
         <div class="div">
-            <div class="section">
-                <div class="div">ReadNext</div>
-                <div class="div">30 days</div>
-                <div class="div">why svelte</div>
-                <div class="div">Love them</div>
-                <div class="div">Beguinner Guide</div>
+            <div class="section d-flex flex-column justify-content-center">
+                <div class="div">
+                    <p>ReadNext</p>
+                </div>
+                <div class="div border d-flex flex-row">
+                    <div class="border">carita</div>
+                    <div><ul>
+                            <li>30 days of react</li>
+                            <li>Asabeneh - Sept 30</li>
+                        </ul>
+                    </div>                                
+                </div>
+                <div class="div border d-flex flex-row">
+                    <div class="border">carita</div>
+                    <div><ul>
+                            <li>Why svelte is revolutionary</li>
+                            <li>Hanna - Oct 1</li>
+                        </ul>
+                    </div>                                
+                </div>
+                <div class="div border d-flex flex-row">
+                    <div class="border">carita</div>
+                    <div><ul>
+                            <li>Love Them or Hate Them, Coding Exercises Are an Essential Part of Software Engineering Interviews</li>
+                            <li>Tyler Hawkins - Oct 5</li>
+                        </ul>
+                    </div>                                
+                </div>
+                <div class="div border d-flex flex-row">
+                    <div class="border">carita</div>
+                    <div><ul>
+                            <li>Beginne's guide to Elasticsearch</li>
+                            <li>Lisa - Sept 20</li>
+                        </ul>
+                    </div>                                
+                </div>
+
+
             </div>
         </div>
     </div>
