@@ -1,0 +1,52 @@
+.aside-list ul{
+    padding-left: 0;
+    li{
+        margin: 10px 0;
+        &:hover{
+            color: $color-purple;
+            background: rgba(184, 178, 178, 0.507);
+            border-radius: 5px;
+            padding: 8px;
+            
+            
+        }
+    }
+}
+        .More{
+            &:hover{
+                background: rgba(184, 178, 178, 0.507);
+                border-radius: 5px;
+                padding: 8px;
+            }
+        }  
+  
+.tag-aside {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    img{
+        &:hover{
+            background: rgba(184, 178, 178, 0.507);
+            
+        }
+    }
+    
+}   
+.imagen-size{
+
+    img {
+        
+        width: 100%;
+        margin-bottom: 20px;
+    
+        
+    }
+     
+    p {
+        color:$color-purple
+    }
+            
+} 
+
+
