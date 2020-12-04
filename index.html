@@ -17,7 +17,6 @@
 
     <div class="container-fluid bg">
         <div class="row">
-
             <div class="container ">
                 <div class="row">
 
@@ -54,19 +53,35 @@
                     <!-- POST -->
                     <div class="col-12 col-md-9 col-lg-6 p-0">
                         <div class="post-head">
-                            <div class="post-title">
-                                <img src="/assets/icon-post.svg " class="d-col d-md-block d-lg-none" width="20"
-                                    alt="icon">
-                                <h3>Posts</h3>
+                            <div class="nav-post">
+                                <div class="post-title">
+                                    <img src="/assets/icon-post.svg " class="d-col d-md-none d-lg-none" width="20"
+                                        alt="icon">
+                                    <h3>Posts</h3>
+                                </div>
+                                <div class="d-none d-md-block d-lg-block wrapper-nav">
+                                    <ul class="nav justify-content-end">
+                                        <li class="nav-item line-nav">
+                                            <a class="nav-link active text-dark" href="#">Feed</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark" href="#">Week</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark" href="#">Month</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark" href="#">Year</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark" href="#">Infinity</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a class="nav-link text-dark" href="#">Latest</a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <ul class="d-none d-md-block d-lg-block nav-list">
-                                <li>Feed</li>
-                                <li>Week</li>
-                                <li>Month</li>
-                                <li>Year</li>
-                                <li>Infinity</li>
-                                <li>Latest</li>
-                            </ul>
 
                             <div class="dropdown d-md-none d-lg-none">
                                 <button class="btn btn-secondary dropdown-toggle bg-light text-dark" type="button"
@@ -81,11 +96,13 @@
                                     <a class="dropdown-item" href="#">Infinity</a>
                                     <a class="dropdown-item" href="#">Latest</a>
                                 </div>
-                                <img src="/assets/icon-listing.svg" class="d-lg-none" width="20" alt="icon">
+                                <img src="/assets/icon-listing.svg" class="d-md-none" width="20" alt="icon">
                             </div>
+                            <img src="/assets/icon-listing.svg" class="d-none d-md-block d-lg-none i-rayo" width="20"
+                                alt="icon">
                         </div>
 
-                        <section class="container-post">
+                        <div class="container-post">
                             <div>
                                 <img src="/assets/images/ph-article.jpg" class="ph-post img-fluid" alt="ph-post">
                             </div>
@@ -113,14 +130,13 @@
                                         <div class="d-flex wrapper-icon">
                                             <div class="reaction-post">
                                                 <img src="/assets/icon-like.svg" width="23" alt="icon">
-                                                <p>51 <span class="d-none d-md-block">reactions</span>
-                                                </p>
+                                                <p>51 </p>
+                                                <p class="d-none d-md-block text-space">reactions</p>
                                             </div>
-                                            <div class="comment-post">
+                                            <div class=" comment-post">
                                                 <img src="/assets/icon-comment.svg" width="23" alt="icon">
-                                                <p>4
-                                                    <span class="d-none d-md-block">comments</span>
-                                                </p>
+                                                <p>4 </p>
+                                                <p class="d-none d-md-block text-space">comments</p>
                                             </div>
                                         </div>
                                         <div class="d-flex wrapper">
@@ -135,193 +151,192 @@
                                 <div class="post-name-user">
                                     <img src="/assets/images/user-2.jpg" width="35" height="35"
                                         class="rounded-circle border border-secondary user-icon" alt="user">
-                                    <p class="user-name">Jess Lee (she/her) for the DEV Team <br>
-                                        <span class="text-gray">Dec 1 (8 hours ago)</span></p>
-                                </div>
-                                <div>
-
-                                    <div class="title-article">
-                                        <h2>The 7 most popular DEV post from de Past Week </h2>
-                                        <p class="gray-text">#icymi</p>
+                                    <div class="name-user">
+                                        <p class="user-name">Jess Lee (she/her) for the DEV Team <br>
+                                            <span class="text-gray">Dec 1 (8 hours ago)</span></p>
                                     </div>
+                                </div>
+
+                                <div class="title-article">
+                                    <h2>The 7 most popular DEV post from de Past Week </h2>
+                                    <p class="gray-text">#icymi</p>
+
                                     <div class="section-comment">
                                         <div class="d-flex wrapper-icon">
-
                                             <div class="reaction-post">
                                                 <img src="/assets/icon-like.svg" width="23" alt="icon">
-                                                <p>18 <span class="d-none d-md-block">reactions</span>
-                                                </p>
+                                                <p>18 </p>
+                                                <p class="d-none d-md-block text-space">reactions</p>
                                             </div>
-
                                             <div class="comment-post">
                                                 <img src="/assets/icon-comment.svg" width="23" alt="icon">
-                                                <p>2 <span class="d-none d-md-block"> comments</span>
-                                                </p>
+                                                <p>2 </p>
+                                                <p class="d-none d-md-block text-space">comments</p>
                                             </div>
                                         </div>
-
                                         <div class="d-flex wrapper">
                                             <p class="text-read">2 min read</p>
                                             <button class="btn-post rounded">Save</button>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="post-section">
-                                    <div class="post-name-user">
-                                        <img src="/assets/images/user-3.jpeg" width="35" height="35"
-                                            class="rounded-circle border border-secondary user-icon" alt="user">
-                                        <div class="name-user">
-                                            <p class="user-name">Oladejo Abdullahi <br>
-                                                <span class="text-gray">Dec 1 (5 hours ago)</span></p>
-                                        </div>
-                                    </div>
 
-                                    <div class="title-article">
-                                        <h2> How to Design chrome logo with HTML and CSS only</h2>
-                                        <ul>
-                                            <li>#html</li>
-                                            <li>#css</li>
-                                            <li>#webdev</li>
-                                        </ul>
-                                        <div class="section-comment">
-                                            <div class="d-flex wrapper-icon">
-                                                <div class="reaction-post">
-                                                    <img src="/assets/icon-like.svg" width="23" alt="icon">
-                                                    <p>5 <span class="d-none d-md-block">reactions</span>
-                                                    </p>
-                                                </div>
-                                                <div class="comment-post">
-                                                    <img src="/assets/icon-comment.svg" width="23" alt="icon">
-                                                    <p>0
-                                                        <span class="d-none d-md-block">Add comments</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex wrapper">
-                                                <p class="text-read">3 min read</p>
-                                                <button class="btn-post rounded">Save</button>
-                                            </div>
-                                        </div>
+                            <div class="post-section">
+                                <div class="post-name-user">
+                                    <img src="/assets/images/user-3.jpeg" width="35" height="35"
+                                        class="rounded-circle border border-secondary user-icon" alt="user">
+                                    <div class="name-user">
+                                        <p class="user-name">Oladejo Abdullahi <br>
+                                            <span class="text-gray">Dec 1 (5 hours ago)</span></p>
                                     </div>
                                 </div>
 
-                                <div class="post-section">
-                                    <div class="post-name-user">
-                                        <img src="/assets/images/user-4.jpeg" width="35" height="35"
-                                            class="rounded-circle border border-secondary user-icon" alt="user">
-                                        <div class="name-user">
-                                            <p class="user-name">Oorjit Chowdhary<br>
-                                                <span class="text-gray">Dec 2 (17 mins ago)</span></p>
+                                <div class="title-article">
+                                    <h2> How to Design chrome logo with HTML and CSS only</h2>
+                                    <ul>
+                                        <li>#html</li>
+                                        <li>#css</li>
+                                        <li>#webdev</li>
+                                    </ul>
+
+                                    <div class="section-comment">
+                                        <div class="d-flex wrapper-icon">
+                                            <div class="reaction-post">
+                                                <img src="/assets/icon-like.svg" width="23" alt="icon">
+                                                <p>5 </p>
+                                                <p class="d-none d-md-block text-space">reactions</p>
+                                            </div>
+                                            <div class="comment-post">
+                                                <img src="/assets/icon-comment.svg" width="23" alt="icon">
+                                                <p class="d-md-none">0 </p>
+                                                <p class="d-none d-md-block">Add comments</p>
+                                            </div>
                                         </div>
-                                    </div>
-
-                                    <div class="title-article">
-                                        <h2>Direct for Messages for VScode</h2>
-                                        <ul>
-                                            <li>#typescript</li>
-                                            <li> #vscode</li>
-                                            <li>#svelte</li>
-                                        </ul>
-
-                                        <div class="section-comment">
-                                            <div class="d-flex wrapper-icon">
-                                                <div class="reaction-post">
-                                                    <img src="/assets/icon-like.svg" width="23" alt="icon">
-                                                    <p>2 <span class="d-none d-md-block">reactions</span>
-                                                    </p>
-                                                </div>
-                                                <div class="comment-post">
-                                                    <img src="/assets/icon-comment.svg" width="23" alt="icon">
-                                                    <p>0
-                                                        <span class="d-none d-md-block">Add comments</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex wrapper">
-                                                <p class="text-read">1 min read</p>
-                                                <button class="btn-post rounded">Save</button>
-                                            </div>
+                                        <div class="d-flex wrapper">
+                                            <p class="text-read">3 min read</p>
+                                            <button class="btn-post rounded">Save</button>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="post-section">
-                                    <div class="post-name-user">
-                                        <img src="/assets/images/user-5.jpeg" width="35" height="35"
-                                            class="rounded-circle border border-secondary user-icon" alt="user">
-                                        <div class="name-user">
-                                            <p class="user-name">Samuel-Casey<br>
-                                                <span class="text-gray">Dec 2 (2 hours ago)</span></p>
-                                        </div>
-                                    </div>
-
-                                    <div class="title-article">
-                                        <h2>Pros and Cons of Building your typescript Express API with FireBase</h2>
-                                        <ul>
-                                            <li>#typescript</li>
-                                            <li>#node</li>
-                                            <li>#googlecloud</li>
-                                            <li>#fistpost</li>
-                                        </ul>
-
-                                        <div class="section-comment">
-                                            <div class="d-flex wrapper-icon">
-                                                <div class="reaction-post">
-                                                    <img src="/assets/icon-like.svg" width="23" alt="icon">
-                                                    <p>2 <span class="d-none d-md-block">reactions</span>
-                                                    </p>
-                                                </div>
-                                                <div class="comment-post">
-                                                    <img src="/assets/icon-comment.svg" width="23" alt="icon">
-                                                    <p>0
-                                                        <span class="d-none d-md-block">Add comments</span>
-                                                    </p>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex wrapper">
-                                                <p class="text-read">6 min read</p>
-                                                <button class="btn-post rounded">Save</button>
-                                            </div>
-                                        </div>
+                            <div class="post-section">
+                                <div class="post-name-user">
+                                    <img src="/assets/images/user-4.jpeg" width="35" height="35"
+                                        class="rounded-circle border border-secondary user-icon" alt="user">
+                                    <div class="name-user">
+                                        <p class="user-name">Oorjit Chowdhary<br>
+                                            <span class="text-gray">Dec 2 (17 mins ago)</span></p>
                                     </div>
                                 </div>
 
-                                <div class="post-section">
-                                    <div class="post-name-user">
-                                        <img src="/assets/images/user-6.jpeg" width="35" height="35"
-                                            class="rounded-circle border border-secondary user-icon" alt="user">
-                                        <p class="user-name">Przemyslaw Paczosky <br>
-                                            <span class="text-gray">Dec 1 (4 hours ago)</span></p>
-                                    </div>
-                                    <div>
+                                <div class="title-article">
+                                    <h2>Direct for Messages for VScode</h2>
+                                    <ul>
+                                        <li>#typescript</li>
+                                        <li> #vscode</li>
+                                        <li>#svelte</li>
+                                    </ul>
 
-                                        <div class="title-article">
-                                            <h2>Fist steps with Functional test automation</h2>
+                                    <div class="section-comment">
+                                        <div class="d-flex wrapper-icon">
+                                            <div class="reaction-post">
+                                                <img src="/assets/icon-like.svg" width="23" alt="icon">
+                                                <p>2 </p>
+                                                <p class="d-none d-md-block text-space">reactions</p>
+                                            </div>
+                                            <div class="comment-post">
+                                                <img src="/assets/icon-comment.svg" width="23" alt="icon">
+                                                <p class="d-md-none">0 </p>
+                                                <p class="d-none d-md-block">Add comments</p>
+                                            </div>
                                         </div>
+                                        <div class="d-flex wrapper">
+                                            <p class="text-read">1 min read</p>
+                                            <button class="btn-post rounded">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post-section">
+                                <div class="post-name-user">
+                                    <img src="/assets/images/user-5.jpeg" width="35" height="35"
+                                        class="rounded-circle border border-secondary user-icon" alt="user">
+                                    <div class="name-user">
+                                        <p class="user-name">Samuel-Casey<br>
+                                            <span class="text-gray">Dec 2 (2 hours ago)</span></p>
+                                    </div>
+                                </div>
+
+                                <div class="title-article">
+                                    <h2>Pros and Cons of Building your typescript Express API with FireBase</h2>
+                                    <ul>
+                                        <li>#typescript</li>
+                                        <li>#node</li>
+                                        <li>#googlecloud</li>
+                                        <li>#fistpost</li>
+                                    </ul>
+
+                                    <div class="section-comment">
+                                        <div class="d-flex wrapper-icon">
+                                            <div class="reaction-post">
+                                                <img src="/assets/icon-like.svg" width="23" alt="icon">
+                                                <p>2 </p>
+                                                <p class="d-none d-md-block text-space">reactions</p>
+                                            </div>
+                                            <div class="comment-post">
+                                                <img src="/assets/icon-comment.svg" width="23" alt="icon">
+                                                <p class="d-md-none">0 </p>
+                                                <p class="d-none d-md-block">Add comments</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex wrapper">
+                                            <p class="text-read">6 min read</p>
+                                            <button class="btn-post rounded">Save</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="post-section">
+                                <div class="post-name-user">
+                                    <img src="/assets/images/user-6.jpeg" width="35" height="35"
+                                        class="rounded-circle border border-secondary user-icon" alt="user">
+                                    <p class="user-name">Przemyslaw Paczosky <br>
+                                        <span class="text-gray">Dec 1 (4 hours ago)</span></p>
+                                </div>
+                                <div>
+
+                                    <div class="title-article">
+                                        <h2>Fist steps with Functional test automation</h2>
+
                                         <div class="section-comment">
                                             <div class="d-flex wrapper-icon">
 
                                                 <div class="reaction-post">
                                                     <img src="/assets/icon-like.svg" width="23" alt="icon">
-                                                    <p>0 <span class="d-none d-md-block">reactions</span>
-                                                    </p>
+                                                    <p>0 </p>
+                                                    <p class="d-none d-md-block text-space">reactions</p>
                                                 </div>
-
                                                 <div class="comment-post">
                                                     <img src="/assets/icon-comment.svg" width="23" alt="icon">
-                                                    <p>0 <span class="d-none d-md-block">Add comments</span>
-                                                    </p>
+                                                    <p class="d-md-none">0 </p>
+                                                    <p class="d-none d-md-block">Add comments</p>
                                                 </div>
                                             </div>
-
                                             <div class="d-flex wrapper">
                                                 <p class="text-read">2 min read</p>
                                                 <button class="btn-post rounded">Save</button>
                                             </div>
                                         </div>
                                     </div>
-                        </section>
+                                </div>
+                                </section>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- ASIDE2 -->
