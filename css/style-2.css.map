@@ -5,7 +5,8 @@
         "style-2.scss",
         "_variables.scss",
         "_base.scss",
-        "_mixins.scss"
+        "_mixins.scss",
+        "_middleFotter.scss"
     ],
     "names": [],
     "file": "style-2.css"
