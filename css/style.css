@@ -33,6 +33,15 @@ ul, li {
   padding: 8px;
 }
 
+/* .aside1{
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 10 0;
+    font-size: 95%;
+    padding: 8px;
+    
+ }        */
 .tag-aside {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -206,4 +215,19 @@ ul, li {
 .btn-post:hover {
   background: #b5bdc4;
 }
+
+.aside2 {
+  background: white;
+  border: 1px, solid, gray;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 95%;
+}
+
+/* .font-size{
+        
+        font-size: 95%;
+        
+} */
 /*# sourceMappingURL=style.css.map */
