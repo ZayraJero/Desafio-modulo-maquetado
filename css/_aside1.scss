@@ -13,6 +13,8 @@
     }
 }
         .More{
+            color: $text-comment;
+            font-size: 15px;
             &:hover{
                 background: rgba(184, 178, 178, 0.507);
                 border-radius: 5px;
@@ -22,14 +24,12 @@
   
 
  /* .aside1{
-    background: white;
-    border: 1px solid gray;
-    border-radius: 5px;
+         
     margin: 10 0;
     font-size: 95%;
     padding: 8px;
     
- }        */
+ }         */
 .tag-aside {
     display: flex;
     justify-content: space-between;
@@ -54,9 +54,20 @@
     }
      
     p {
-        color:$color-purple
+        color:$color-purple;
+        font-weight: bold;
+        font-size: 25px;
+
     }
             
 } 
 
+.name-perfil {
+    margin-left: 10px;
+    
+}
+.span-name {
+    font-size: 13px;
+    color: $text-comment;
+}
 
