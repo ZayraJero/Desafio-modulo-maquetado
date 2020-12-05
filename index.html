@@ -15,22 +15,54 @@
 
 <body>
     <header class="container-navbar">
-        <nav class="navbar navbar-expand-lg fixed-top py-0">
-            <div class="container bg-white">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container bg-white d-flex">
                 <div class="nav-left d-flex align-items-center">
-                    <img src="/assets/icon-logo.svg" alt="logo">
-                    <form class="form-inline my-1">
-                        <input class="form-control my-0 mr-sm-2 nav-search" type="search" placeholder="Search..."
-                            aria-label="Search">
-                    </form>
+                    <div class="logo-img">
+                        <img src="/assets/icon-logo.svg" alt="logo">
+                    </div>
+
+                    <div class="nav-search">
+                        <form class="form-inline my-1" width="100">
+                            <input class="form-control my-0 mr-sm-2" type="search" placeholder="Search..."
+                                aria-label="Search">
+                        </form>
+                    </div>
+
                 </div>
                 <div class="nav-right d-flex align-items-center">
-                    <button type="button" class="d-none d-md-flex btn btn-primary btn-lg btn-nav">Write a post</button>
-                    <img src="/assets/icon-chat.svg" alt="icon">
-                    <img src="/assets/icon-notification.svg" alt="icon">
+                    <div class="d-flex wrapper-icon">
+                        <div class="icon-nav">
+                            <button type="button" class="d-none d-md-flex btn btn-primary btn-lg nav-btn">Write a
+                                post</button>
 
-                    <img src="/assets/images/foto-zay.jpeg" width="30" alt="user-ph"
-                        class="rounded-circle border border-secondary">
+                            <div class="icon">
+                                <img src="/assets/icon-chat.svg" alt="icon">
+                            </div>
+                            <div class="icon">
+                                <img src="/assets/icon-notification.svg" alt="icon">
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="btn-group">
+                        <button type="button" class="btn user-btn" data-toggle="dropdown" data-display="static"
+                            aria-haspopup="true" aria-expanded="false">
+                            <img src="/assets/images/foto-zay.jpeg" width="30" alt="user-ph"
+                                class="rounded-circle border border-secondary">
+                        </button>
+                        <div class="dropdown-menu dropdown-menu-lg-right">
+                            <button class="dropdown-item border-bottom" type="button">Zayra Jerónimo <br>
+                                <span class="text-secondary">@zayrajero</span></button>
+                            <button class="dropdown-item" type="button">Dashboard</button>
+                            <button class="dropdown-item" type="button">Write a Post</button>
+                            <button class="dropdown-item" type="button">Reading list</button>
+                            <button class="dropdown-item" type="button">Settings</button>
+                            <button class="dropdown-item border-top" type="button">Sign Out</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
