@@ -28,3 +28,11 @@
 input {
     text-align: left;
 }
+
+.div.etiquetas ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    color: $text-comment;
+    justify-content: flex-start;
+  }
