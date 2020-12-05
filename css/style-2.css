@@ -18,6 +18,11 @@ ul, li {
   /* border-style: none; */
 }
 
+.corner-square-nb {
+  border-radius: 5px;
+  /* border-style: none; */
+}
+
 .button-blue {
   background-color: rgba(94, 25, 253, 0.959);
   border-style: none;
@@ -58,5 +63,11 @@ input {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: flex-start;
+}
+
+.read-next {
+  border-radius: 10px;
+  background-color: #eef0f1;
+  border: 1px solid #b6b5b5;
 }
 /*# sourceMappingURL=style-2.css.map */
