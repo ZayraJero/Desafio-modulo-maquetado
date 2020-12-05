@@ -12,6 +12,63 @@ ul, li {
   background: #eef0f1;
 }
 
+.container {
+  padding: 10px auto;
+  width: 100%;
+}
+
+.logo-img {
+  padding-left: 10px;
+}
+
+.nav-search {
+  padding-left: 5px;
+  width: 150px;
+}
+
+.nav-btn {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 5px 17px;
+  background: #3b49df;
+  margin-right: 10px;
+  border: none;
+}
+
+.nav-btn:hover {
+  background: #323ebe;
+}
+
+@media only screen and (min-width: 768px) {
+  .wrap-icon {
+    margin: 0 15px;
+  }
+}
+
+.icon-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon-nav .icon {
+  padding: 0 15px;
+}
+
+.dropdown-menu {
+  border-color: black;
+  border-top-width: thin;
+  border-right-width: thick;
+  border-bottom-width: thick;
+  border-left-width: thin;
+}
+
 .corner-square {
   border-radius: 5px;
   border: 1px solid #b6b5b5;
