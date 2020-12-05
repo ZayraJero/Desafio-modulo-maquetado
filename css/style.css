@@ -258,12 +258,30 @@ ul, li {
   margin-left: 5%;
 }
 
-.title-article h1, h2 {
+.text-body, h1 {
+  color: #08090a;
   font-size: 20px;
   margin-top: -10px;
 }
 
-.title-article h1:hover, h2:hover {
+.text-body:hover, h1:hover {
+  color: #3b49df;
+  -webkit-transition: 0.3s ease;
+  transition: 0.3s ease;
+}
+
+@media only screen and (min-width: 768px) {
+  .text-body, h1 {
+    font-size: 22px;
+  }
+}
+
+.title-article h2 {
+  font-size: 20px;
+  margin-top: -10px;
+}
+
+.title-article h2:hover {
   color: #3b49df;
   -webkit-transition: 0.3s ease;
   transition: 0.3s ease;
